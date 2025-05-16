@@ -1,0 +1,43 @@
+body{
+    overflow-x: hidden;
+}
+h1{
+    color: #08b962;
+}
+.box h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #08b962;
+    padding-left: 5px;
+    padding-top: 10px;
+   
+}
+.box{
+     background-color: #eee;
+     border-radius: 20px;
+    height: 350px;
+    font-size:medium;
+    padding-left: 5px;
+}
+.table{
+    border: solid 1px #eee;
+}
+
+.content{
+    background-color: #eee;
+    font-size: medium;
+    border-radius: 3%;
+    padding: 10px;
+    height: 378px;
+    margin-bottom: 15px;
+}
+
+.thead-green{
+ background-color: #08b962;
+ color: white;
+    
+}
+span{
+    font-weight: 500;
+}

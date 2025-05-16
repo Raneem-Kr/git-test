@@ -1,0 +1,31 @@
+body{
+    overflow-x: hidden;
+}
+h1 {
+  color: #00bf63;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+span{
+    font-weight: 600;
+}
+img{
+  height: 270px;
+  margin-top: 130px;
+}
+.img2{
+
+  height: 350px;
+
+  
+}
+p{
+  margin-bottom: 20px;
+}
+
+h2{
+  margin-top: 20px;
+}
+span{
+  font-weight: 500;
+}

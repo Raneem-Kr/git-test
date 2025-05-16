@@ -1,0 +1,18 @@
+h1{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+li a{
+color:black;
+font-weight: 400;
+}
+li a:hover{
+    color: rgb(96, 96, 96) !important;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+span{
+    font-weight: 600;
+}

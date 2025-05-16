@@ -1,0 +1,134 @@
+body{
+    overflow-x: hidden;
+}
+
+span{
+    font-weight: bold;
+        color: #00bf63;
+}
+
+.text-label-form{
+    font-size: 25px;
+    margin-top: 20px;
+
+    margin-bottom: 15px
+}
+.note{
+    line-height:1.5;
+    font-size: 20px;
+  
+}
+
+.text-survey-form{
+    font-size: 20px;
+}
+.survey{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.survey-dots , .survey-dots-inner{
+    text-align: center;
+    position: relative;
+    size: 40px;
+
+}
+.survey-dots input , .survey-dots-inner input{
+    margin-left: 50px;   
+}
+
+.survey button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #08b962;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #066b49;
+}
+h4{
+    color: #00bf63;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+label{
+    padding-top: 5px;
+}
+
+/* Style for the feedback container */
+.feedback-container {
+  margin-top: 20px;
+  background-color: #f8f9fa; /* Light grey background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Style for the feedback label */
+.feedback-container label {
+  font-weight: bold; /* Make label text bold */
+  margin-bottom: 10px; /* Space between label and textarea */
+  display: block; /* Ensure the label is block level for proper spacing */
+  color: #333; /* Darker text for better readability */
+}
+
+/* Style for the feedback textarea */
+.feedback-container textarea {
+  width: 100%; /* Make textarea span the full width of its container */
+  border: 1px solid #ced4da; /* Light grey border */
+  border-radius: 4px; /* Slightly rounded corners for the textarea */
+  padding: 10px; /* Padding inside the textarea */
+  font-family: Arial, sans-serif; /* Set a pleasant reading font */
+  line-height: 1.5; /* Improve line spacing for better readability */
+  resize: vertical; /* Allow only vertical resizing */
+}
+
+
+@media only screen and (min-width:500px) {
+    .survey-dots , .survey-dots-inner{
+        display: flex;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:700px) {
+    .survey-dots , .survey-dots-inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .survey-dots input, .survey-dots-inner input{
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:770px){
+    
+    .survey-dots::before{
+        content: "Strongly disagree";
+        position: absolute;
+        top: -30px;
+    }
+    .survey-dots::after{
+        content: "Strongly agree";
+        position: absolute;
+        top: -30px;
+        right: -50px;
+    }
+   
+}
+.content-text{
+    display: none;
+}
+@media only screen and (max-width:600px){
+    .content-text{
+        display: block;
+        font-size: 12px;
+    }
+}
